@@ -4,4 +4,6 @@ node default {
     content => 'This is a readme',
     owner   => 'root',
   }
+  exec {'running processes':
+    command => top,
 }
