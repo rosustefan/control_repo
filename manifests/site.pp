@@ -4,6 +4,4 @@ node default {
     content => 'This is a readme',
     owner   => 'root',
   }
-  exec {'top':
-    command => top,
 }
